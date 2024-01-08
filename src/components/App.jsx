@@ -1,13 +1,15 @@
 import Hero from './Hero';
 import Header from './Header';
 import Projects from './Projects';
+import About from './About'
 
 function App() {
   return (
-    <div style={{backgroundColor: '#000', position: 'relative'}}>
+    <div style={{position: 'relative'}}>
       <Header />
       <Hero />
       <Projects />
+      <About />
       <div className='noise'></div>
     </div>
   )

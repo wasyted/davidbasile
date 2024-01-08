@@ -1,0 +1,60 @@
+.hero{
+  padding: 10px;
+  min-height: 100dvh;
+  display: flex;
+  color: var(--black);
+  background: url("src/assets/hyped/Chrome Shapes FREE SAMPLE/02_chrome_shape.png");
+}
+
+.hero-title > h1{
+  justify-self: start;
+  align-self: flex-start;
+}
+
+.hero-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+  padding: 20px;
+}
+
+.hero-image > img{
+  max-width: 100%;
+}
+
+.hero-container{
+  font-family: 'humane';
+  font-weight: bolder;
+  z-index: 2;
+  flex: 1;
+  padding: 20px;
+}
+
+.hero-title{
+  font-size: 25px;
+}
+
+.chain-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 50px;
+  overflow: hidden;
+}
+
+.chain{
+  max-width: 100%;
+}
+
+.hero .bg-asset{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  max-width: 100%;
+  margin: auto;
+  z-index: 1;
+  opacity: 0.5;
+}

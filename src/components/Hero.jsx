@@ -1,24 +1,22 @@
-import './Hero.css'
+import './Hero.scss'
 
 function Hero() {
   return (
 		<div className='hero'>
 			<div className='hero-container'>
-				<div>
-					<img className='hero-logo' src="src/assets/logo-small.png" alt="" />
-				</div>
-				<div>
-					<img className='ray1' src="src/assets/30.png" alt="" />
-				</div>
-				<div>
-					<img className='ray2' src="src/assets/30.png" alt="" />
+				<div className='hero-title'>
+					<img style={{maxWidth: '100%', filter: 'invert(100%)'}} src="src/assets/logo-small.png" alt="" />
+					<h1>DAVID BASILE</h1>
+					<h1>PRODUCTOR AUDIOVISUAL</h1>
+					<h1>CAMAROGRAFO</h1>
+					<h1>PRODUCTOR</h1>
 				</div>
 			</div>
-			{/* <img src="src/assets/55.png" alt="" className="chain1" /> */}
-			<video className='bg-asset' autoPlay loop muted src="src/assets/videos/COLORES FRIOS VIDEOCLIP OFICIAL.mp4"></video>
-			{/* <img className='bg-asset' src="src/assets/Liquid Metal_0000s_0024_8.jpg" alt="" /> */}
-    </div>
-  )
+			<div className='hero-image'>
+				<img src="src/assets/photos/MAB_3056.jpg" alt="" />
+			</div>
+		</div>
+		)
 }
 
 export default Hero

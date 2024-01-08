@@ -1,27 +1,92 @@
-import './Projects.css'
+import './Projects.scss'
 
 export default function Projects(){
   return(
     <>
-      <div className="project-grid">
-        <div className='div1'>
-          <h1>DAVID</h1>
-          <h1>BASILE</h1>
+      <div class="projects-grid">
+        <div class="project-container1 project">
+          <img src="src/assets/photos/MAB_2215.jpg" alt="" />
+          <p>Image footer</p>
+          <div>
+            <h1>
+              Image title
+            </h1>
+            <p>
+              2024
+            </p>
+          </div>
         </div>
-        <div className='div2'>
-          <h1>GALERÍA</h1>
+        <div class="project-container2 project">
+          <img src="src/assets/photos/MAB_2822.jpg" alt="" />
+          <p>Image footer</p>
+          <div>
+            <h1>
+              Image title
+            </h1>
+            <p>
+              2024
+            </p>
+          </div>
         </div>
-        <div className='div3'>
-          <h1>REDES</h1>
+        <div class="project-container3 project">
+          <img src="src/assets/photos/MAB_3056.jpg" alt="" />
+          <p>Image footer</p>
+          <div>
+            <h1>
+              Image title
+            </h1>
+            <p>
+              2024
+            </p>
+          </div>
         </div>
-        <div className='div4'>
-          <h1>PROYECTOS</h1>
+        <div class="project-container4 project">
+          <img src="src/assets/photos/MAB_2215.jpg" alt="" />
+          <p>Image footer</p>
+          <div>
+            <h1>
+              Image title
+            </h1>
+            <p>
+              2024
+            </p>
+          </div>
         </div>
-        <div className='div5'>
-          <h1>CONTACTO</h1>
+        <div class="project-container5 project">
+          <img src="src/assets/photos/MAB_2822.jpg" alt="" />
+          <p>Image footer</p>
+          <div>
+            <h1>
+              Image title
+            </h1>
+            <p>
+              2024
+            </p>
+          </div>
         </div>
-        <div className='div6'>
-          <h1>SOBRE MÍ</h1>
+        <div class="project-container6 project">
+          <img src="src/assets/photos/MAB_3056.jpg" alt="" />
+          <p>Image footer</p>
+          <div>
+            <h1>
+              Image title
+            </h1>
+            <p>
+              2024
+            </p>
+          </div>
+        </div>
+        <div class="project-container7 project">
+          <img src="src/assets/photos/MAB_2215.jpg" alt="" />
+          <p>Image footer</p>
+          <div>
+            <h1>
+              Image title
+            </h1>
+            <p>
+              2024
+            </p>
+          </div>
         </div>
       </div>
     </>
