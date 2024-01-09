@@ -3,89 +3,23 @@ import './Projects.scss'
 export default function Projects(){
   return(
     <>
-      <div class="projects-grid">
-        <div class="project-container1 project">
-          <img src="src/assets/photos/MAB_2215.jpg" alt="" />
-          <p>Image footer</p>
-          <div>
-            <h1>
-              Image title
-            </h1>
-            <p>
-              2024
-            </p>
+      <div class="container">
+        <div class="project-container project">
+          <video autoPlay muted loop src="src/assets/photos/Snapinsta.app_video_121528736_716159057099589_1786428663547344825_n.mp4" alt="" />
+          <div className='link-overlay'>
+            <h1>SOBRE MÍ</h1>
           </div>
         </div>
-        <div class="project-container2 project">
-          <img src="src/assets/photos/MAB_2822.jpg" alt="" />
-          <p>Image footer</p>
-          <div>
-            <h1>
-              Image title
-            </h1>
-            <p>
-              2024
-            </p>
+        <div class="project-container project">
+          <video autoPlay muted loop src="src/assets/photos/Snapinsta.app_video_C241EE4CC1CD2FCC36DE554E53AEA4B7_video_dashinit.mp4" alt="" />
+          <div className='link-overlay'>
+            <h1>PROYECTOS</h1>
           </div>
         </div>
-        <div class="project-container3 project">
-          <img src="src/assets/photos/MAB_3056.jpg" alt="" />
-          <p>Image footer</p>
-          <div>
-            <h1>
-              Image title
-            </h1>
-            <p>
-              2024
-            </p>
-          </div>
-        </div>
-        <div class="project-container4 project">
-          <img src="src/assets/photos/MAB_2215.jpg" alt="" />
-          <p>Image footer</p>
-          <div>
-            <h1>
-              Image title
-            </h1>
-            <p>
-              2024
-            </p>
-          </div>
-        </div>
-        <div class="project-container5 project">
-          <img src="src/assets/photos/MAB_2822.jpg" alt="" />
-          <p>Image footer</p>
-          <div>
-            <h1>
-              Image title
-            </h1>
-            <p>
-              2024
-            </p>
-          </div>
-        </div>
-        <div class="project-container6 project">
-          <img src="src/assets/photos/MAB_3056.jpg" alt="" />
-          <p>Image footer</p>
-          <div>
-            <h1>
-              Image title
-            </h1>
-            <p>
-              2024
-            </p>
-          </div>
-        </div>
-        <div class="project-container7 project">
-          <img src="src/assets/photos/MAB_2215.jpg" alt="" />
-          <p>Image footer</p>
-          <div>
-            <h1>
-              Image title
-            </h1>
-            <p>
-              2024
-            </p>
+        <div class="project-container project">
+          <video autoPlay muted loop src="src/assets/photos/Snapinsta.app_video_2946E6698D84399A1810364F104EBE8F_video_dashinit.mp4" alt="" />
+          <div className='link-overlay'>
+           <h1>CONTACTO</h1>
           </div>
         </div>
       </div>

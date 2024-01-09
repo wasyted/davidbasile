@@ -4,16 +4,15 @@ function Hero() {
   return (
 		<div className='hero'>
 			<div className='hero-container'>
-				<div className='hero-title'>
-					<img style={{maxWidth: '100%', filter: 'invert(100%)'}} src="src/assets/logo-small.png" alt="" />
-					<h1>DAVID BASILE</h1>
-					<h1>PRODUCTOR AUDIOVISUAL</h1>
-					<h1>CAMAROGRAFO</h1>
-					<h1>PRODUCTOR</h1>
+				<div className='hero-title-left'>
+					<h3><span>davidbasile</span></h3>
+				</div>
+				<img className='hero-logo' src="src/assets/logo-tall.png" alt="" />
+				<div className='hero-title-right'>
+					<h3>director audiovisual</h3>
 				</div>
 			</div>
 			<div className='hero-image'>
-				<img src="src/assets/photos/MAB_3056.jpg" alt="" />
 			</div>
 		</div>
 		)

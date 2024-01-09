@@ -21,6 +21,10 @@
   font-family: "zamruds";
   src: url("src/assets/hyped/ZAMRUDS.ttf");
 }
+@font-face {
+  font-family: "bull";
+  src: url("src/assets/Sequel Sans Light Body.ttf") format("opentype");
+}
 
 :root{
   --white: #F9FDFE;
@@ -32,20 +36,22 @@
 }
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .noise::before{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: "";
-    opacity: 0.04;  
-    z-index: 100;
-    pointer-events: none;
-    background: url(src/assets/noise.gif) ;
-  }
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  opacity: 0.04;  
+  z-index: 100;
+  pointer-events: none;
+  background: url(src/assets/noise.gif) ;
+}

@@ -1,5 +1,5 @@
 header{
-  background-color: #151515;
+  background-color: var(--black);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,10 +18,22 @@ header > ul{
 }
 
 header h1{
-  font-size: 1rem;
+  font-size: 14px;
 }
 
 header p{
-  font-size: 0.8rem;
+  font-size: 10px;
   color: lightgray;
+}
+
+@media (max-width: 768px){
+  .header-title{
+    display: none;
+  }
+  .header-clock{
+    display: none;
+  }
+  header{
+    justify-content: center;
+  }
 }
