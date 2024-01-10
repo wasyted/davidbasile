@@ -15,11 +15,7 @@ export default function About(){
           Dedicado al mundo audiovisual hace mas de 8 años, trabajé como asistente, camarografo, editor, productor y actualmente me desarrollo como director audiovisual. <br></br><br></br>
           Durante los ultimos 3 años me dedico de lleno a la dirección de videoclips para varios artistas de diferentes géneros. 
           <br></br><br></br>
-          <span style={{textDecoration: 'underline'}}>
-          Mis objetivos:
-          </span>
-          <br></br><br></br>
-          Lograr un ambiente de comodidad para todo el equipo - Contar una historia de calidad en cada video - Adaptarse a la esencia de cada artista - Llevar la música un nivel mas arriba con los videoclips.
+          Con mi trabajo busco generar un ambiente de comodidad para todo el equipo, contar una historia de calidad en cada video, adaptarme a la esencia de cada artista, llevar la música un nivel mas arriba con los videoclips.
         </h1>
       </div>
     </div>

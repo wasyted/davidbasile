@@ -33,7 +33,6 @@
   align-items: center;
   background-color: #1515157c;
   border-radius: 10px;
-  backdrop-filter: grayscale(80%);
   transition: 100ms ease-in-out;
 }
 
@@ -52,7 +51,7 @@
 
 .project-container{
   max-width: 300px;
-  max-height: 300px;
+  max-height: 200px;
 }
 
 .project-container > video{
