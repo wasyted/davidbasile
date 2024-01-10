@@ -2,15 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: start;
-  padding: 20px;
+  padding: 50px;
   color: var(--white);
   background-color: var(--black);
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
 }
 
 .hero-container{

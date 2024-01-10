@@ -1,6 +1,52 @@
 .contact{
-  min-height: 100dvh;
+  padding: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+  font-family: 'Karla';
+}
+
+.contact > form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 50px;
+} 
+.contact h1{
+  padding-bottom: 20px;
+}
+
+.contact > form > div{
+  display: flex;
+  gap: 20px;
+}
+
+.contact > form > div > label > input {
+  width: 200px;
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid #151515;
+}
+
+.contact > form label {
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+  gap: 10px;
+}
+
+.contact textarea {
+  border: 2px solid #151515;
+  resize: none;
+  padding: 5px;
+}
+
+.contact input[type=submit]{
+  width: 100px;
+  padding: 5px;
+  background: #151515;
+  color: var(--white);
+  border: 2px solid #151515;
+  font-family: 'Karla';
 }
