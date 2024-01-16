@@ -1,47 +1,60 @@
 .hero{
   display: flex;
-  justify-content: center;
-  align-items: start;
-  padding: 50px;
+  justify-content: start;
+  align-items: end;
+  padding: 20px;
   color: var(--white);
   background-color: var(--black);
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  min-height: calc(100dvh - 40px);
+  position: relative;
 }
 
 .hero-container{
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: end;
   flex-wrap: wrap;
-  font-family: 'medium';
-}
-
-.hero-title-left, .hero-title-right{
-  flex: 1;
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  grid-template-rows: repeat(2, 60px);
-  padding: 10px;
-}
-
-.hero-title-left > h3 {
-  grid-row-start: 1;
-  text-align: center;
-}
-
-.hero-title-right > h3 {
-  grid-row-start: 2;
-  text-align: center;
+  z-index: 3;
+  font-family: 'Karla';
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 .hero-logo{
   flex: 1;
   max-width: 400px;
-  filter: brightness(130%);
+}
+
+.hero ul{
+  font-family: 'Karla';
+  font-size: 20px;
+  z-index: 3;
+  text-transform: uppercase;
+  align-self: flex-end;
+}
+
+.hero h1{
+  cursor: default;
+}
+
+.hero ul li{
+  transition: 200ms ease-in-out;
+}
+
+.hero ul li:hover{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.hero a:hover{
+  color: var(--black);
+  background-color: var(--white);
+  padding: 2px;
 }
 
 .hero .bg-asset{
@@ -49,25 +62,32 @@
   left: 0;
   right: 0;
   bottom: 0;
-  position: fixed;
+  position: absolute;
   max-width: 100%;
   margin: auto;
-  z-index: 1;
-  opacity: 0.5;
+  z-index: 2;
+  filter: grayscale(100%);
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(120%);
+  animation: bigger 30s ease-in-out reverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
 }
 
+@keyframes bigger {
+  0%{transform: scale(120%);}
+  25%{transform: scale(300%)}
+  50%{transform: scale(500%);}
+  75%{transform: scale(300%)}
+  100%{transform: scale(120%);}
+}
+
+
+
 @media (max-width: 768px){
-  .hero-title-left > h3{
-    grid-row-start: 2;
-    text-align: center;
-  }
-  .hero-title-right > h3{
-    grid-row-start: 1;
-    text-align: center;
-  }
-  .hero-logo{
-    max-width: 300px;
-  }
   .hero{
     align-items: start;
     padding-top: 20px;

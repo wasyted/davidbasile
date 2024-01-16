@@ -28,7 +28,7 @@ export default function Contact(){
           </div>
           <label htmlFor="message">
             Mensaje
-            <textarea placeholder={'Contame acerca de tu proyecto, quiero que trabajemos juntos.'} cols={45} rows={10} id="message" type="text" />
+            <textarea placeholder={'Contame acerca de tu proyecto, quiero que trabajemos juntos.'} cols={45} rows={6} id="message" type="text" />
           </label>
           <label htmlFor="submit-buttom">
             <input type="submit" value="Enviar" />

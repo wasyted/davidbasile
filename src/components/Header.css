@@ -1,20 +1,39 @@
 header{
-  background-color: var(--black);
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-family: 'Karla';
-  color: #fff;
-  padding: 8px;
+  color: #151515;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
   position: sticky;
   top: 0px;
   z-index: 4;
 }
 
-header > ul{
-  list-style: none;
+header button {
+  border: none;
+  background-color: transparent;
+}
+
+
+
+header > div:first-of-type{
   display: flex;
-  gap: 20px;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+header > ul{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
 }
 
 header h1{
@@ -23,7 +42,18 @@ header h1{
 
 header p{
   font-size: 10px;
-  color: lightgray;
+  color: #959595
+}
+
+header > ul > li{
+  padding: 5px;
+  height: 100%;
+  transition: 200ms ease-in-out;
+}
+
+header > ul > li:hover{
+  text-underline-offset: 2px;
+  text-decoration: underline solid greenyellow;
 }
 
 @media (max-width: 768px){
@@ -35,5 +65,9 @@ header p{
   }
   header{
     justify-content: center;
+    align-items: center;
+  }
+  header > div:first-of-type{
+    width: 25px;
   }
 }

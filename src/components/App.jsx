@@ -11,7 +11,9 @@ function App() {
       <Header />
       <Hero />
       <Projects />
+      <h1 className="section-header" style={{margin: '5px', marginBottom: '10px'}}>Sobre mi</h1>
       <About />
+      <h1 className="section-header" style={{margin: '5px', marginBottom: '10px'}}>Contacto</h1>
       <Contact />
       <Gallery />
       <div className='noise'></div>

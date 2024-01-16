@@ -1,10 +1,13 @@
 .container{
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
   gap: 40px;
   max-width: 1280px;
   margin: auto;
   padding: 50px;
+  position: relative;
 }
 
 .project{
@@ -19,6 +22,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  z-index: 3;
 }
 
 .link-overlay{
@@ -36,26 +40,20 @@
   transition: 100ms ease-in-out;
 }
 
-.link-overlay::before{
-  padding: 5px;
-  background-color: #fff;
-  height: 5px;
-  width: 100px;
-}
-
 .link-overlay:hover{
   cursor: pointer;
   backdrop-filter: grayscale(100%);
-  filter: invert(90%);  
+  filter: invert(80%);
 }
 
 .project-container{
   max-width: 300px;
-  max-height: 200px;
+  max-height: 400px;
 }
 
-.project-container > video{
+.project-container video{
   border-radius: 10px;
+  filter: grayscale(100%);
   max-width: 100%;
 }
 

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@400;700&family=Climate+Crisis&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap');
 @font-face {
   font-family: "deus";
   src: url("src/assets/hyped/Deus - FREE FOR PERSONAL USE/Deus - FREE FOR PERSONAL USE.ttf");
@@ -41,6 +42,22 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.section-header{
+  font-family: 'bull';
+  text-align: center;
+  padding: 20px;
+  border: 1px solid var(--black);
 }
 
 .noise::before{
