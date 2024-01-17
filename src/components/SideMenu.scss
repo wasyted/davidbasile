@@ -8,7 +8,7 @@
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  z-index: 1;
+  z-index: 4;
 }
 
 .sideMenu.open {
@@ -25,6 +25,9 @@
   text-align: center;
   color: white;
   cursor: pointer;
+  text-underline-offset: 0px;
+  transition: 200ms ease-in;
+  width: 250px;
 }
 
 .closeButton {
@@ -36,4 +39,9 @@
   background: none;
   border: none;
   cursor: pointer;
+}
+
+.menuList li:hover{
+  text-underline-offset: 2px;
+  text-decoration: underline solid greenyellow;
 }

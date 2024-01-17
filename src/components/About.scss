@@ -24,7 +24,6 @@
   align-items: center;
   & > h1{
     min-width: 25ch;
-    border: 1px solid var(--white);
     font-family: 'Sono';
     font-size: 16px;
     font-weight: 300;
@@ -61,6 +60,7 @@
 .about img{
   min-width: 250px;
   max-width: 100%;
+  padding: 10px;
   border: 1px solid var(--white);
   position: relative;
 }

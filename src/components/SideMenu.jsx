@@ -5,7 +5,7 @@ const SideMenu = ({ isOpen, onClose }) => {
   return (
     <div className={`sideMenu ${isOpen ? 'open' : ''}`}>
       <button onClick={onClose} className='closeButton'>
-        <img style={{maxWidth: '25px'}} src="src/assets/hyped/Chrome Shapes FREE SAMPLE/01_chrome_shape.png" alt="" />
+        X
       </button>
       <ul className='menuList'>
 			  <li>

@@ -8,6 +8,7 @@
   margin: auto;
   padding: 50px;
   position: relative;
+  z-index: 5;
 }
 
 .project{
@@ -23,6 +24,7 @@
   align-items: center;
   overflow: hidden;
   z-index: 3;
+  min-height: 400px;
 }
 
 .link-overlay{
@@ -42,8 +44,6 @@
 
 .link-overlay:hover{
   cursor: pointer;
-  backdrop-filter: grayscale(100%);
-  filter: invert(80%);
 }
 
 .project-container{
@@ -53,8 +53,8 @@
 
 .project-container video{
   border-radius: 10px;
-  filter: grayscale(100%);
   max-width: 100%;
+  min-height: 400px;
 }
 
 @media (max-width: 768px){

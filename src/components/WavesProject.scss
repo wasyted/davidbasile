@@ -1,0 +1,76 @@
+.waves-project{
+  max-width: 1024px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid var(--white);
+  > div:first-of-type{
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    padding: 10px;
+    width: 100%;
+    gap: 10px;
+    h2{
+      font-family: 'bull';
+    }
+    p{
+      font-family: 'Sono';
+      text-align: justify;
+      max-width: 45ch;
+    }
+    > div{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.video-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 400px;
+}
+
+.waves-text-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+  color: var(--white);
+  h2{
+    font-family: 'bull';
+  }
+  p{
+    font-family: 'Sono';
+    text-align: justify;
+    max-width: 45ch;
+    > a{
+      text-underline-offset: 4px;
+      text-decoration: underline solid greenyellow;
+    }
+  }
+  > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1024px) {
+  .waves-text-container > div{
+    justify-content: center;
+  }
+}
